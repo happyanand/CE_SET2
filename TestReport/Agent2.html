@@ -1,0 +1,2165 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<meta charset='utf-8' /> 
+	<meta name='description' content='' />
+	<meta name='robots' content='noodp, noydir' />
+	<meta name='viewport' content='width=device-width, initial-scale=1' />
+	<meta id="timeStampFormat" name="timeStampFormat" content='EEEE, MMMM dd, yyyy, hh:mm a '('zzz')''/>
+	
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/b4a58fcfd1e137bd9287244035a7c80d3d73b3af/dist/css/extent.css' type='text/css' rel='stylesheet' />
+	
+	<title>CE_Regression_Commission_Agent_and_Service_Automation_Report_03142025.html</title>
+
+	<style type='text/css'>
+	</style>
+</head>
+
+	<body class='extent dark default hide-overflow '>
+		<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+			<span><i class='material-icons'>desktop_windows</i></span>
+		</div>
+
+<nav>
+	<div class="nav-wrapper">
+		<a href="#!" class="brand-logo blue darken-3">Extent</a>
+
+		<!-- slideout menu -->
+		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
+		</ul>
+
+		<!-- report name -->
+		<span class='report-name'>CE_Regression_Commission_Agent_and_Service_Automation_Report_03142025.html</span>
+		
+		<!-- report headline -->
+		<span class='report-headline'></span>
+
+		<!-- nav-right -->
+		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+			<li>
+                <a href='#!'>
+                    <span class='label suite-start-time blue darken-3'>Friday, March 14, 2025, 04:44 PM (IST)</span>
+				</a>
+			</li>
+			<li>
+                <a href='#!'>
+                    <span class='label blue darken-3'>3.1.5</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+		<!-- container -->
+		<div class='container'>
+
+<div id='test-view' class='view'>
+				
+	<section id='controls'>
+		<div class='controls grey lighten-4'>
+			<!-- test toggle -->
+			<div class='chip transparent'>
+				<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+					<i class='material-icons'>warning</i> Status
+				</a>
+				<ul id='tests-toggle' class='dropdown-content'>
+											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li class='divider'></li>
+					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+				</ul>
+			</div>
+			<!-- test toggle -->
+
+			<!-- category toggle -->
+			<!-- category toggle -->
+
+			<!-- clear filters -->
+			<div class='chip transparent hide'>
+				<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+					<i class='material-icons'>close</i> Clear
+				</a>
+			</div>
+			<!-- clear filters -->
+
+			<!-- enable dashboard -->
+			<div id='toggle-test-view-charts' class='chip transparent'>
+				<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+					<i class='material-icons'>track_changes</i> Dashboard
+				</a>
+			</div>
+			<!-- enable dashboard -->
+
+			<!-- search -->
+			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+				<a href="#" class='search-div'>
+					<i class='material-icons'>search</i> Search
+				</a>
+
+				<div class='input-field left hide'>
+					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+				</div>
+				
+			</div>
+			<!-- search -->
+		</div>
+	</section>
+
+
+<div id='test-view-charts' class='subview-full'>
+	<div id='charts-row' class='row nm-v nm-h'>
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Tests</div>
+				<div class='chart-box'>
+					<canvas id='parent-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> test(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
+		
+		<div class='col s12 m6 l6 np-h'>
+			<div class='card-panel nm-v'>
+				<div class='left panel-name'>Steps</div>
+				<div class='chart-box'>
+					<canvas id='child-analysis' width='100' height='80'></canvas>
+				</div>
+				<div class='block text-small'>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>364</span> step(s) passed</span>
+				</div>
+				<div class='block text-small'>
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+	<div class='subview-left left'>
+		
+		<div class='view-summary'>
+			<h5>Tests</h5>
+			<ul id='test-collection' class='test-collection'>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+					<div class='test-heading'>
+						<span class='test-name'>SCM_TS_001_TC_001_TC_002_TC_004_TC_005_TC_006_TC_010_Create_Duplicate_Download_Edit_Delete_Clone</span>
+						<span class='test-time'>Friday, March 14, 2025, 04:44 PM (IST)</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Friday, March 14, 2025, 04:44 PM (IST)</span>
+	<span class='label end-time'>Friday, March 14, 2025, 04:49 PM (IST)</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 4m 30s+58ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:44:42 PM</td>
+					<td class='step-details'>Logged in Environment: UAT</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:44:46 PM</td>
+					<td class='step-details'>Launched brower is : Chrome</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:45:07 PM</td>
+					<td class='step-details'>Title is displayed : Benefitalign :: MME</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:45:29 PM</td>
+					<td class='step-details'>Application Login Benefitalign :: MME</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:45:36 PM</td>
+					<td class='step-details'>You currently have an active session on another device hence Deactivated the other session!</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:45:45 PM</td>
+					<td class='step-details'>***********************************************************************************</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:45:45 PM</td>
+					<td class='step-details'>Start SCM_TS_001_TC_001_To_validate_whether_user_is_able_to_set_the_criteria_on_split_commission_rate_under</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:45:48 PM</td>
+					<td class='step-details'>System not able to found the element :By.xpath: //a[@class='fa fa-minus right-al']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:45:48 PM</td>
+					<td class='step-details'>Unsuccessfully 'Minimize' Not visible</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:45:49 PM</td>
+					<td class='step-details'>Successfully user Hover on 'Commission module Icon'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:45:49 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Commission Set Up'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:45:49 PM</td>
+					<td class='step-details'>System not able to found the element :By.xpath: //a[@class='fa fa-minus right-al']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:45:49 PM</td>
+					<td class='step-details'>Unsuccessfully 'Minimize' Not visible</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:14 PM</td>
+					<td class='step-details'>System not able to found the element :By.xpath: //*[@class='loader small-custom  ng-show']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:14 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@ng-click='newSplitCommissionCriteria()']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:14 PM</td>
+					<td class='step-details'>Successfully user Landed on 'Split Commission Set up '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:14 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Add Split Commission'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:14 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: (//*[@class='dx-texteditor-input'][@aria-haspopup='true'])[1]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:14 PM</td>
+					<td class='step-details'>Successfully user able to See 'Start_Date '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:14 PM</td>
+					<td class='step-details'>Successfully user entered the '_Start_Date in text field' 03/01/2025</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:14 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: (//*[@class='dx-texteditor-input'][@aria-haspopup='true'])[2]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:14 PM</td>
+					<td class='step-details'>Successfully user able to See 'End_Date '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:14 PM</td>
+					<td class='step-details'>Successfully user entered the 'End_Date in text field' 03/28/2025</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:14 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@aria-colindex='5']//div[@class='dx-selectbox dx-textbox dx-texteditor dx-editor-outlined dx-widget dx-dropdowneditor-button-visible dx-dropdowneditor dx-dropdowneditor-field-clickable']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:15 PM</td>
+					<td class='step-details'>Successfully click On Dropdown</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:16 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@role='option']//*[contains(text(),'(ANTHEM) ANTHEM BLUE CROSS LIFE AND HEALTH INSURANCE COMPANY')]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:16 PM</td>
+					<td class='step-details'>Successfully clicked and select value from dropdown : (ANTHEM) ANTHEM BLUE CROSS LIFE AND HEALTH INSURANCE COMPANY</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:16 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@aria-colindex='6']//div[@class='dx-selectbox dx-textbox dx-texteditor dx-editor-outlined dx-widget dx-dropdowneditor-button-visible dx-dropdowneditor dx-dropdowneditor-field-clickable']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:16 PM</td>
+					<td class='step-details'>Successfully click On Dropdown</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:17 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@role='option']//*[contains(text(),'New')]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:17 PM</td>
+					<td class='step-details'>Successfully clicked and select value from dropdown : New</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:17 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@aria-colindex='8']//div[@class='dx-selectbox dx-textbox dx-texteditor dx-editor-outlined dx-widget dx-dropdowneditor-button-visible dx-dropdowneditor dx-dropdowneditor-field-clickable']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:17 PM</td>
+					<td class='step-details'>Successfully click On Dropdown</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:19 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@role='option']//*[contains(text(),'Accident')]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:19 PM</td>
+					<td class='step-details'>Successfully clicked and select value from dropdown : Accident</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:19 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@title='Search Customer']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:19 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'search Customer'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:24 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'search Customer'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:24 PM</td>
+					<td class='step-details'>System able to found the element :By.xpath: //*[@aria-selected='true']//*[@aria-colindex='2']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:24 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Continue'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:24 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@aria-colindex='11']//div[@class='dx-dropdowneditor-icon']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:28 PM</td>
+					<td class='step-details'>System not able to found the element :By.xpath: //*[@class='dx-agent-list Active'][@title='Active'][contains(text(),'1Agent  M13')]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:28 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@aria-colindex='11']//div[@class='dx-dropdowneditor-icon']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:28 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'AOR DropDown'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:30 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@class='dx-agent-list Active'][@title='Active'][contains(text(),'1Agent M13')]]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:30 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'AOR DropDown Value :-' 1Agent M13</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:30 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@aria-colindex='12']//*[@class='dx-texteditor-input']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:30 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@aria-colindex='12']//*[@class='dx-texteditor-input']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:31 PM</td>
+					<td class='step-details'>Successfully click On Dropdown</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:32 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@role='option']//*[contains(text(),'Fixed Rate ($)')]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:32 PM</td>
+					<td class='step-details'>Successfully clicked and select value from dropdown : Fixed Rate ($)</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:32 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@aria-colindex='13']//div[@class='dx-dropdowneditor-icon']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:32 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'AOR DropDown'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:34 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@class='dx-agent-list Active'][@title='Active'][contains(text(),'1Agent M13')]]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:35 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'AOR DropDown Value :-' 1Agent M13</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:35 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@aria-colindex='15']//div[@class='dx-dropdowneditor-icon']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:35 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'AOR DropDown'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:37 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@class='dx-agent-list Active'][@title='Active'][contains(text(),'1Agent M14')]]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:37 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'AOR DropDown Value :-' 1Agent M14</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:37 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@aria-colindex='14']//*[@class='dx-texteditor-input']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:37 PM</td>
+					<td class='step-details'>Successfully user able to See 'Split '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:37 PM</td>
+					<td class='step-details'>Successfully user entered the 'Split in text field' 2</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:37 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@title='Save']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:37 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Save Split Commission'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:37 PM</td>
+					<td class='step-details'>System able to found the element :By.xpath: //*[@class='message ng-binding']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:38 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Save Split Commission Confirmation 'Yes Button''</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:42 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //div[@id='divSuccess']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:42 PM</td>
+					<td class='step-details'>System able to found the element :By.xpath: //div[@id='divSuccess']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:49 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected 03/01/2025 Actual 03/01/2025</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:51 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected 03/28/2025 Actual 03/28/2025</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:53 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected (ANTHEM) ANTHEM BLUE CROSS LIFE AND HEALTH INSURANCE COMPANY Actual (ANTHEM) ANTHEM BLUE CROSS LIFE AND HEALTH INSURANCE COMPANY</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:55 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected New Actual New</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:57 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected All Actual All</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:46:59 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Accident Actual Accident</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:01 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //tr[@class='dx-row dx-data-row dx-column-lines']//td[@role='gridcell'][@aria-colindex='9']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:04 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected All Actual All</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:06 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //tr[@class='dx-row dx-data-row dx-column-lines']//td[@role='gridcell'][@aria-colindex='10']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:09 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Auto Quotes940 Actual Auto Quotes940</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:11 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //tr[@class='dx-row dx-data-row dx-column-lines']//td[@role='gridcell'][@aria-colindex='11']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:14 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected 1Agent M13 Actual 1Agent M13</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:16 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //tr[@class='dx-row dx-data-row dx-column-lines']//td[@role='gridcell'][@aria-colindex='12']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:19 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Fixed Rate ($) Actual Fixed Rate ($)</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:21 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //tr[@class='dx-row dx-data-row dx-column-lines']//td[@role='gridcell'][@aria-colindex='13']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:24 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected 1Agent M13 Actual 1Agent M13</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:26 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //tr[@class='dx-row dx-data-row dx-column-lines']//td[@role='gridcell'][@aria-colindex='14']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:29 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected 2 Actual 2</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:32 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //tr[@class='dx-row dx-data-row dx-column-lines']//td[@role='gridcell'][@aria-colindex='15']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:35 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected 1Agent M14 Actual 1Agent M14</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:35 PM</td>
+					<td class='step-details'>END SCM_TS_001_TC_001_To_validate_whether_user_is_able_to_set_the_criteria_on_split_commission_rate_under</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:35 PM</td>
+					<td class='step-details'>*************************************************************</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:35 PM</td>
+					<td class='step-details'>Start SCM_TS_001_TC_005_To_validate_whether_user_is_able_to_edit__the_existing_criterias</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:35 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: (//*[@title='Edit'])[1]]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:35 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Edit Split Commission'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:35 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@aria-colindex='5']//div[@class='dx-selectbox dx-textbox dx-texteditor dx-editor-outlined dx-widget dx-dropdowneditor-button-visible dx-dropdowneditor dx-dropdowneditor-field-clickable']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:35 PM</td>
+					<td class='step-details'>Successfully click On Dropdown</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:36 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@role='option']//*[contains(text(),'AARP - UNITEDHEALTHCARE INSURANCE COMPANY')]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:36 PM</td>
+					<td class='step-details'>Successfully clicked and select value from dropdown : AARP - UNITEDHEALTHCARE INSURANCE COMPANY</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:36 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@aria-colindex='6']//div[@class='dx-selectbox dx-textbox dx-texteditor dx-editor-outlined dx-widget dx-dropdowneditor-button-visible dx-dropdowneditor dx-dropdowneditor-field-clickable']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:36 PM</td>
+					<td class='step-details'>Successfully click On Dropdown</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:37 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@role='option']//*[contains(text(),'Special Event Plan (SEP)')]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:38 PM</td>
+					<td class='step-details'>Successfully clicked and select value from dropdown : Special Event Plan (SEP)</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:38 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@aria-colindex='8']//div[@class='dx-selectbox dx-textbox dx-texteditor dx-editor-outlined dx-widget dx-dropdowneditor-button-visible dx-dropdowneditor dx-dropdowneditor-field-clickable']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:38 PM</td>
+					<td class='step-details'>Successfully click On Dropdown</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:39 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@role='option']//*[contains(text(),'Accidental Insurance')]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:39 PM</td>
+					<td class='step-details'>Successfully clicked and select value from dropdown : Accidental Insurance</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:39 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@aria-colindex='11']//div[@class='dx-dropdowneditor-icon']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:39 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@class='dx-agent-list Active'][@title='Active'][contains(text(),'1Agent M15')]]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:39 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@class='dx-agent-list Active'][@title='Active'][contains(text(),'1Agent M15')]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:39 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@aria-colindex='11']//div[@class='dx-dropdowneditor-icon']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:39 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'AOR DropDown'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:42 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@class='dx-agent-list Active'][@title='Active'][contains(text(),'1Agent M15')]]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:42 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'AOR DropDown Value :-' 1Agent M15</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:42 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@aria-colindex='13']//div[@class='dx-dropdowneditor-icon']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:42 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'AOR DropDown'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:44 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@class='dx-agent-list Active'][@title='Active'][contains(text(),'1Agent M15')]]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:44 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'AOR DropDown Value :-' 1Agent M15</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:44 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@aria-colindex='15']//div[@class='dx-dropdowneditor-icon']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:45 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'AOR DropDown'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:47 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@class='dx-agent-list Active'][@title='Active'][contains(text(),'1Agent M16')]]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:47 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'AOR DropDown Value :-' 1Agent M16</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:47 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@aria-colindex='14']//*[@class='dx-texteditor-input']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:47 PM</td>
+					<td class='step-details'>Successfully user able to See 'Split '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:47 PM</td>
+					<td class='step-details'>Successfully user entered the 'Split in text field' 3</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:47 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@title='Save']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:47 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Save Split Commission'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:47 PM</td>
+					<td class='step-details'>System able to found the element :By.xpath: //*[@class='message ng-binding']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:47 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Save Split Commission Confirmation 'Yes Button''</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:49 PM</td>
+					<td class='step-details'>System able to found the element :By.xpath: //div[@id='divSuccess']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:56 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected 03/01/2025 Actual 03/01/2025</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:47:58 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected 03/28/2025 Actual 03/28/2025</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:00 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected AARP - UNITEDHEALTHCARE INSURANCE COMPANY Actual AARP - UNITEDHEALTHCARE INSURANCE COMPANY</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:02 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Special Event Plan (SEP) Actual Special Event Plan (SEP)</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:04 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected All Actual All</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:06 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Accidental Insurance Actual Accidental Insurance</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:08 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //tr[@class='dx-row dx-data-row dx-column-lines']//td[@role='gridcell'][@aria-colindex='9']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:11 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected All Actual All</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:14 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //tr[@class='dx-row dx-data-row dx-column-lines']//td[@role='gridcell'][@aria-colindex='10']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:17 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Auto Quotes940 Actual Auto Quotes940</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:19 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //tr[@class='dx-row dx-data-row dx-column-lines']//td[@role='gridcell'][@aria-colindex='11']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:22 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected 1Agent M15 Actual 1Agent M15</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:24 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //tr[@class='dx-row dx-data-row dx-column-lines']//td[@role='gridcell'][@aria-colindex='12']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:27 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Fixed Rate ($) Actual Fixed Rate ($)</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:29 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //tr[@class='dx-row dx-data-row dx-column-lines']//td[@role='gridcell'][@aria-colindex='13']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:32 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected 1Agent M15 Actual 1Agent M15</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:34 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //tr[@class='dx-row dx-data-row dx-column-lines']//td[@role='gridcell'][@aria-colindex='14']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:37 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected 3 Actual 3</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:39 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //tr[@class='dx-row dx-data-row dx-column-lines']//td[@role='gridcell'][@aria-colindex='15']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:42 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected 1Agent M16 Actual 1Agent M16</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:42 PM</td>
+					<td class='step-details'>End SCM_TS_001_TC_005_To_validate_whether_user_is_able_to_edit__the_existing_criterias</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:42 PM</td>
+					<td class='step-details'>*************************************************************</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:42 PM</td>
+					<td class='step-details'>Start SCM_TS_001_TC_004_To_validate_whether_user_is_able_download_splitcommission_setup</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:42 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Download Split Commission'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:51 PM</td>
+					<td class='step-details'>End SCM_TS_001_TC_004_To_validate_whether_user_is_able_download_splitcommission_setup</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:51 PM</td>
+					<td class='step-details'>*************************************************************</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:51 PM</td>
+					<td class='step-details'>Start SCM_TS_001_TC_002_To_validate_whether_user_is_able_to_add_a_duplicate_criteria</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:51 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: (//*[@title='Clone'])[1]]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:52 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Clone Split Commission'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:52 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@title='Save']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:52 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Save Split Commission'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:52 PM</td>
+					<td class='step-details'>System able to found the element :By.xpath: //*[@class='message ng-binding']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:52 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Save Split Commission Confirmation 'Yes Button''</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:52 PM</td>
+					<td class='step-details'>System able to found the element :By.id: divError</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:57 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: //*[@title='Cancel']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:57 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Cancel Split Commission'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:57 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (22611308ce5245f579cbd5200fa0e4f5)] -> xpath: (//*[@title='Delete'])[1]]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:58 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Delete Split Commission'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:48:58 PM</td>
+					<td class='step-details'>System able to found the element :By.xpath: //*[@class='dx-dialog-message']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:49:00 PM</td>
+					<td class='step-details'>System able to found the element :By.xpath: //div[@id='divSuccess']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:49:05 PM</td>
+					<td class='step-details'>End SCM_TS_001_TC_002_To_validate_whether_user_is_able_to_add_a_duplicate_criteria</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:49:05 PM</td>
+					<td class='step-details'>*************************************************************</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:49:10 PM</td>
+					<td class='step-details'>User has been selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:49:12 PM</td>
+					<td class='step-details'>Logout has been performed!</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>AGTS002TC001TS004TC006TS004TC007TS007TC001TS008TC001TC002createsalesmanfieldsinquotes_policystabCollaborationsFilterAdvanceSearch</span>
+						<span class='test-time'>Friday, March 14, 2025, 04:49 PM (IST)</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Friday, March 14, 2025, 04:49 PM (IST)</span>
+	<span class='label end-time'>Friday, March 14, 2025, 04:56 PM (IST)</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 7m 17s+2ms</span>
+</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:49:17 PM</td>
+					<td class='step-details'>Logged in Environment: UAT</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:49:19 PM</td>
+					<td class='step-details'>Launched brower is : Chrome</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:49:39 PM</td>
+					<td class='step-details'>Title is displayed : Benefitalign :: MME</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:02 PM</td>
+					<td class='step-details'>Application Login Benefitalign :: MME</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:07 PM</td>
+					<td class='step-details'>CheckUserLogin element not found! So you currently Dont have an active session on another device, hence Login is successful</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:16 PM</td>
+					<td class='step-details'>System not able to found the element :By.xpath: //a[@class='fa fa-minus right-al']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:16 PM</td>
+					<td class='step-details'>Unsuccessfully 'Minimize' Not visible</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:21 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@class='box animate-box fade-in'][@ng-show="isAccessible('Agency')"]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:21 PM</td>
+					<td class='step-details'>Successfully user able to See 'Agency module Icon'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:22 PM</td>
+					<td class='step-details'>Successfully user Hover on 'Agency module Icon'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:23 PM</td>
+					<td class='step-details'>System able to found the element :By.xpath: //*[@class='user']//b</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:23 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[contains(@ng-show,'Agent')]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:23 PM</td>
+					<td class='step-details'>Successfully user able to See 'AgentTab '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:23 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'AgentTab'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:38 PM</td>
+					<td class='step-details'>System not able to found the element :By.xpath: //*[@class='loader small-custom  ng-show']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:38 PM</td>
+					<td class='step-details'>System not able to found the element :By.xpath: //a[@class='fa fa-minus right-al']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:38 PM</td>
+					<td class='step-details'>Unsuccessfully 'Minimize' Not visible</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:47 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.id: createNewAgentBtn</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:47 PM</td>
+					<td class='step-details'>Successfully user able to See 'AddAgent '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:49 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'AddAgent'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:57 PM</td>
+					<td class='step-details'>Successfully user entered the 'FirstName in text field' Firsthlizoggk</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:57 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.name: LastName</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:57 PM</td>
+					<td class='step-details'>Successfully user able to See 'LastName '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:57 PM</td>
+					<td class='step-details'>Successfully user entered the 'LastName in text field' AutomationQAwtxlxsdl</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:57 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.name: StateLicenseNumber</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:57 PM</td>
+					<td class='step-details'>Successfully user able to See 'LicenceNumber '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:57 PM</td>
+					<td class='step-details'>Successfully user entered the 'LicenceNumber in text field' 767084889288</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:50:57 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.name: AgencyType</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:01 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[contains(@class,'dropDown md-active md-clickable')]//*[@value='Agent']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:01 PM</td>
+					<td class='step-details'>Successfully user found and clicked on the Agent value inside the dropdown</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:04 PM</td>
+					<td class='step-details'>Agency type has been selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:07 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: (//h5[text()='Agent Contact Information']//parent::div//i)[2]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:07 PM</td>
+					<td class='step-details'>Successfully user able to See 'Agentcontactinfo '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:07 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Agentcontactinfo'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:07 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.name: Phone</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:07 PM</td>
+					<td class='step-details'>Successfully user able to See 'Phonenumber '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:07 PM</td>
+					<td class='step-details'>Successfully user entered the 'Phonenumber in text field' 7650637658</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:08 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.name: Email</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:08 PM</td>
+					<td class='step-details'>Successfully user able to See 'Email '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:08 PM</td>
+					<td class='step-details'>Successfully user entered the 'Email in text field' FirsthlizoggkAutomationQAwtxlxsdlemail@yopmail.com</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:08 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.id: saveAgentdetailsButton</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:08 PM</td>
+					<td class='step-details'>Successfully user able to See 'Agentsubmitbtn '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:08 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Agentsubmitbtn'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:16 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@aria-label='Search your text']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:16 PM</td>
+					<td class='step-details'>Successfully user able to See 'AgentSearchBar '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:17 PM</td>
+					<td class='step-details'>Successfully user entered the 'AgentSearchBar in text field' Firsthlizoggk AutomationQAwtxlxsdl</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:19 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: (//*[contains(@ng-click,'agentDetails(row.entity)')])[1]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:25 PM</td>
+					<td class='step-details'>System able to found the element :By.xpath: //*[text()='Agent Name:']//parent::span//span</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:25 PM</td>
+					<td class='step-details'>Successfully Assert pass validate the agent name acctual Firsthlizoggk AutomationQAwtxlxsdl As Expected Firsthlizoggk AutomationQAwtxlxsdl</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:40 PM</td>
+					<td class='step-details'>System not able to found the element :By.xpath: //*[@class='loader small-custom  ng-show']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:40 PM</td>
+					<td class='step-details'>********************************************************</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:40 PM</td>
+					<td class='step-details'>Start_AG_TS_004_TC_006_validate_the_fields_in_quotes_tab</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:42 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: (//*[@ng-show='hasMoreTabs()']//a)[1]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:42 PM</td>
+					<td class='step-details'>Successfully user able to See 'More Tab'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:42 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'More Tab'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:44 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: (//*[contains(@ng-repeat,'tab in detailsFolder')]//a[@class='ng-binding'])[text()='Quotes']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:44 PM</td>
+					<td class='step-details'>Successfully user able to See 'Quotes Tab'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:44 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Quotes Tab'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:58 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Quote ID Actual Quote ID</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:58 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Created Date Actual Created Date</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:58 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Product Category Actual Product Category</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:58 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Status Actual Status</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:59 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Phone Actual Phone</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:59 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Email Actual Email</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:59 PM</td>
+					<td class='step-details'>End_AG_TS_004_TC_006_validate_the_fields_in_quotes_tab</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:59 PM</td>
+					<td class='step-details'>********************************************************</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:51:59 PM</td>
+					<td class='step-details'>Start_AG_TS_004_TC_007_validate_the_fields_in_Policys_tab</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:01 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: (//*[@ng-show='hasMoreTabs()']//a)[1]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:01 PM</td>
+					<td class='step-details'>Successfully user able to See 'More Tab'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:01 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'More Tab'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:03 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: (//*[contains(@ng-repeat,'tab in detailsFolder')]//a[@class='ng-binding'])[text()='Policies']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:03 PM</td>
+					<td class='step-details'>Successfully user able to See 'Policies Tab'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:03 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Policies Tab'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:06 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Policy ID Actual Policy ID</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:06 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Applicant Actual Applicant</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:06 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Created Date Actual Created Date</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:06 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Product Category Actual Product Category</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:07 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Status Actual Status</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:07 PM</td>
+					<td class='step-details'>Successfully user found the expected Colunm name:- Expected Phone Actual Phone</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:07 PM</td>
+					<td class='step-details'>End_AG_TS_004_TC_007_validate_the_fields_in_Policys_tab</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:07 PM</td>
+					<td class='step-details'>********************************************************</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:07 PM</td>
+					<td class='step-details'>Start AG_TS_007_TC_001_Collaborations</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:12 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //span[@class='collpase-leftt glyphicon glyphicon-triangle-right']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:13 PM</td>
+					<td class='step-details'>Clicked on Maximize</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:22 PM</td>
+					<td class='step-details'>Note has been added</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:27 PM</td>
+					<td class='step-details'>Assertion has been done</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:28 PM</td>
+					<td class='step-details'>Clicked on Action Email Icon</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:35 PM</td>
+					<td class='step-details'>Clicked on Email Address DD</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:36 PM</td>
+					<td class='step-details'>Clicked on Email Address DD Option</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:42 PM</td>
+					<td class='step-details'>Email has been added</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:51 PM</td>
+					<td class='step-details'>System able to found the element :By.xpath: (//u[@class='ng-binding'])[1]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:52:51 PM</td>
+					<td class='step-details'>Assertion has been done</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:25 PM</td>
+					<td class='step-details'>Attachment has been added</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:30 PM</td>
+					<td class='step-details'>Assertion has been done</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:44 PM</td>
+					<td class='step-details'>Successfully scroll down to the element :[[ChromeDriver: chrome on windows (050877dc08f70539e96d7d80681efeb6)] -> xpath: //i[@class='fa fa-check yellow green']]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:44 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //i[@class='fa fa-check yellow green']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:44 PM</td>
+					<td class='step-details'>Successfully user able to See 'SubmitTask '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:44 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'SubmitTask'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:45 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.id: divSuccess</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:45 PM</td>
+					<td class='step-details'>Successfully user able to See 'Success msg '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:45 PM</td>
+					<td class='step-details'>System able to found the element :By.id: divSuccess</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:48 PM</td>
+					<td class='step-details'>System not able to found the element :By.name: menu_Dashboard</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:51 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //i[@class='fa fa-bars']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:52 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Menu bar'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:55 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.name: menu_Dashboard</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:55 PM</td>
+					<td class='step-details'>Successfully user able to See 'DashboardMenu '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:55 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'DashboardMenu'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:58 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.name: submenu_MyTasks</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:58 PM</td>
+					<td class='step-details'>Successfully user able to See 'submenu_MyTasks '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:53:58 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'submenu_MyTasks'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:18 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: (//*[text()='To Do']//parent::div//parent::div[@ng-click='getDataToLoadParticularSection(task)'])[1]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:18 PM</td>
+					<td class='step-details'>Successfully user able to See 'TodayTask '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:20 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'TodayTask'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:30 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //span[@class='collpase-leftt glyphicon glyphicon-triangle-right']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:32 PM</td>
+					<td class='step-details'>Clicked on Maximize</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:47 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //a[@role='tab']//i[@class='fa fa-calendar'] | //a[@role='tab']//i[@class='fa fa-calendar']//parent::a</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:47 PM</td>
+					<td class='step-details'>Successfully user able to See 'Tasktab '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:47 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Tasktab'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:50 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: (//i[@ng-click='deleteTask(activity, false)'])[1]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:50 PM</td>
+					<td class='step-details'>Successfully user able to See 'DeleteTask '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:50 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'DeleteTask'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:51 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //button[@class='positive md-button md-ink-ripple']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:51 PM</td>
+					<td class='step-details'>Successfully user able to See 'DeleteTaskOK '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:51 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'DeleteTaskOK'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:52 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.id: divSuccess</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:52 PM</td>
+					<td class='step-details'>Successfully user able to See 'Success msg '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:52 PM</td>
+					<td class='step-details'>System able to found the element :By.id: divSuccess</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:52 PM</td>
+					<td class='step-details'>End AG_TS_007_TC_001_Collaborations</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:54:52 PM</td>
+					<td class='step-details'>*******************************************************</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:00 PM</td>
+					<td class='step-details'>System not able to found the element :By.xpath: //*[@name='menu_home']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:03 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //i[@class='fa fa-bars']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:03 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Menu bar'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:06 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@name='menu_home']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:06 PM</td>
+					<td class='step-details'>Successfully user able to See 'Home page'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:06 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Homw Page'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:14 PM</td>
+					<td class='step-details'>System not able to found the element :By.xpath: //a[@class='fa fa-minus right-al']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:14 PM</td>
+					<td class='step-details'>Unsuccessfully 'Minimize' Not visible</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:14 PM</td>
+					<td class='step-details'>Started AG_TS_008_TC_001_002_Filter_Validations</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:14 PM</td>
+					<td class='step-details'>System not able to found the element :By.xpath: //a[@class='fa fa-minus right-al']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:14 PM</td>
+					<td class='step-details'>Unsuccessfully 'Minimize' Not visible</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:19 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@class='box animate-box fade-in'][@ng-show="isAccessible('Agency')"]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:19 PM</td>
+					<td class='step-details'>Successfully user able to See 'Agency module Icon'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:20 PM</td>
+					<td class='step-details'>Successfully user Hover on 'Agency module Icon'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:21 PM</td>
+					<td class='step-details'>System able to found the element :By.xpath: //*[@class='user']//b</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:21 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[contains(@ng-show,'Agent')]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:21 PM</td>
+					<td class='step-details'>Successfully user able to See 'AgentTab '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:21 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'AgentTab'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:36 PM</td>
+					<td class='step-details'>System not able to found the element :By.xpath: //*[@class='loader small-custom  ng-show']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:36 PM</td>
+					<td class='step-details'>Recent Agents has been validated</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:36 PM</td>
+					<td class='step-details'>Agent_Type has been validated</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:36 PM</td>
+					<td class='step-details'>Status has been validated</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:36 PM</td>
+					<td class='step-details'>State has been validated</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:36 PM</td>
+					<td class='step-details'>Agency_Type has been validated</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:38 PM</td>
+					<td class='step-details'>Agent_Type has been validated</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:39 PM</td>
+					<td class='step-details'>Internal Agent has been checked</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:44 PM</td>
+					<td class='step-details'>Clicked the created agent</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:46 PM</td>
+					<td class='step-details'>Filter has been applied and validated</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:46 PM</td>
+					<td class='step-details'>End AG_TS_008_TC_001_002_Filter_Validations</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:46 PM</td>
+					<td class='step-details'>*******************************************************</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:54 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[@href='#/agency/agents']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:54 PM</td>
+					<td class='step-details'>Successfully user able to See 'Back to Agent Module '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:55 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Back to Agent Module '</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:55 PM</td>
+					<td class='step-details'>********************************************************</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:55:55 PM</td>
+					<td class='step-details'>Start Advance search Flow</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:00 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.name: advancedSearchBtn</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:00 PM</td>
+					<td class='step-details'>Successfully user able to See 'Advance search Button'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:00 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Advance search Button'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:02 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.name: Status</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:05 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[contains(@class,'dropDown md-active md-clickable')]//*[@value='Active']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:05 PM</td>
+					<td class='step-details'>Successfully user found and clicked on the Active value inside the dropdown</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:10 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.name: applyadvancedSearchBtn</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:10 PM</td>
+					<td class='step-details'>Successfully user able to See 'Applyed Advance search Button'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:11 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Applyed Advance search Button'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:13 PM</td>
+					<td class='step-details'>System able to found the element :By.xpath: (//*[@title='Active'])[1]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:15 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.name: Status</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:18 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.xpath: //*[contains(@class,'dropDown md-active md-clickable')]//*[@value='Inactive']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:18 PM</td>
+					<td class='step-details'>Successfully user found and clicked on the Inactive value inside the dropdown</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:23 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.name: applyadvancedSearchBtn</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:23 PM</td>
+					<td class='step-details'>Successfully user able to See 'Applyed Advance search Button'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:24 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'Applyed Advance search Button'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:27 PM</td>
+					<td class='step-details'>System able to found the element :By.xpath: (//*[@title='Inactive'])[1]</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:27 PM</td>
+					<td class='step-details'>END Advance search Flow</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:27 PM</td>
+					<td class='step-details'>*******************************************************</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:27 PM</td>
+					<td class='step-details'>Start Export Flow</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:27 PM</td>
+					<td class='step-details'>Successfully System able to found the element :By.name: downlodDataBtn</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:27 PM</td>
+					<td class='step-details'>Successfully user able to See 'downlodData Button'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:27 PM</td>
+					<td class='step-details'>Successfully user Clicked on 'downlodData Button'</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:27 PM</td>
+					<td class='step-details'>System able to found the element :By.xpath: //div[@id='divSuccess']</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:27 PM</td>
+					<td class='step-details'>End Export Flow</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:27 PM</td>
+					<td class='step-details'>********************************************************</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:32 PM</td>
+					<td class='step-details'>User has been selected</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>4:56:34 PM</td>
+					<td class='step-details'>Logout has been performed!</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- subview left -->
+
+	<div class='subview-right left'>
+		<div class='view-summary'>
+			<h5 class='test-name'></h5>
+
+			<div id='step-filters' class="right">
+				<span class="blue-text" status="info" alt="info" title="info"><i class="material-icons">info_outline</i></span>
+				<span class="green-text" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></span>
+				<span class="red-text" status="fail" alt="fail" title="fail"><i class="material-icons">cancel</i></span>
+				<span class="red-text text-darken-4" status="fatal" alt="fatal" title="fatal"><i class="material-icons">cancel</i></span>
+				<span class="pink-text text-lighten-1" status="error" alt="error" title="error"><i class="material-icons">error</i></span>
+				<span class="orange-text" alt="warning" status="warning" title="warning"><i class="material-icons">warning</i></span>
+				<span class="teal-text" status="skip" alt="skip" title="skip"><i class="material-icons">redo</i></span>
+				<span status="clear" alt="Clear filters" title="Clear filters"><i class="material-icons">clear</i></span>
+			</div>
+		</div>
+	</div>
+	<!-- subview right -->
+
+</div>
+<!-- test view -->
+<!-- category view -->
+<!-- exception view -->
+<div id='dashboard-view' class='view hide'>
+	<div class='card-panel transparent np-v'>
+		<h5>Dashboard</h5>
+
+		<div class='row'>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Tests
+					<div class='panel-lead'>2</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Steps
+					<div class='panel-lead'>364</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Start
+					<div class='panel-lead'>Friday, March 14, 2025, 04:44 PM (IST)</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+			 		End
+			 		<div class='panel-lead'>Friday, March 14, 2025, 04:56 PM (IST)</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
+					Time Taken
+					<div class='panel-lead'>0h 11m 57s+39ms</div>
+				</div>
+			</div>
+			<div class='col s4'>
+				<div class='card-panel dashboard-environment'>
+					<span class='right label cyan white-text'>Environment</span><p>&nbsp;</p>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Value</th>
+						</tr>
+							<tr>
+								<td>OS</td>
+								<td>Windows</td>
+							</tr>
+							<tr>
+								<td>AUT</td>
+								<td>QA</td>
+							</tr>
+							<tr>
+								<td>Author</td>
+								<td>Asif Alam</td>
+							</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->
+		</div>
+		<!-- container -->
+
+		<script>
+			var statusGroup = {
+				passParent: 2,
+				failParent: 0,
+				fatalParent: 0,
+				errorParent: 0,
+				warningParent: 0,
+				skipParent: 0,
+				exceptionsParent: 0,
+				
+				passChild: 364,
+				failChild: 0,
+				fatalChild: 0,
+				errorChild: 0,
+				warningChild: 0,
+				skipChild: 0,
+				infoChild: 0,
+				exceptionsChild: 0,
+				
+				passGrandChild: 0,
+				failGrandChild: 0,
+				fatalGrandChild: 0,
+				errorGrandChild: 0,
+				warningGrandChild: 0,
+				skipGrandChild: 0,
+				infoGrandChild: 0,
+				exceptionsGrandChild: 0,
+			};
+		</script>
+		
+			<script src='https://cdn.rawgit.com/anshooarora/extentreports-java/fca20fb7653aade98810546ab96a2a4360e3e712/dist/js/extent.js' type='text/javascript'></script>
+		
+		
+ 		<script type='text/javascript'>
+ 		</script>
+	</body>
+	
+</html>
